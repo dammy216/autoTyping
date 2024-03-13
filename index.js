@@ -2,7 +2,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 
 (async function example() {
   let driver = await new Builder().forBrowser("chrome").build(); //サイト立ち上げ
-  await driver.get("https://typing.twi1.me/game/255548"); //URLへ移動
+  await driver.get("https://typing.twi1.me/game/131230"); //URLへ移動
 
   //以下のクラスネームが見つかるまで待機（10秒以内)
   await driver.wait(
